@@ -44,6 +44,58 @@
             padding: 10px 20px;
             margin: 0;
         }
+         /* normal devices */
+         @media screen and (min-width: 600px) and (max-width: 895px){
+            .cards-container{
+            justify-content: start;
+            } 
+            .card{
+                margin-left: 50px;
+                margin-top: 50px;
+                width: 600px;
+            }
+            .card-img{
+                height: 40px;
+            }
+            .card-discription{
+            font-size: 10px;
+             }
+        .card-headding{
+            font-size: 15px;
+             }
+        }
+        /* tablets */
+        @media screen and (min-width:896px) and (max-width:981px){
+            .cards-container{
+            justify-content: start;
+            } 
+            .card{
+                margin-left: 80px;
+                margin-top: 50px;
+                width: 350px;
+            }
+            .card-img{
+                height: 50px;
+            }
+            .card-discription{
+            font-size: 12px;
+         }
+        .card-headding{
+            font-size: 20px;
+        }
+        }
+            
+        /* large device */
+        @media screen and (min-width:981.33px) and (max-width:1000px){
+            .cards-container{
+            justify-content: start;
+            } 
+            .card{
+                width: 350;
+                margin-left: 100px;
+                margin-top: 50px;
+            }
+        }
     </style>
 </head>
 <body>
